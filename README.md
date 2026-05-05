@@ -39,7 +39,7 @@ Chạy chương trình để huấn luyện và đánh giá:
    <img width="1000" height="500" alt="loss_curve" src="https://github.com/user-attachments/assets/735fbadc-5c0e-4fbe-b141-3046333a719c" />
    <img width="1100" height="600" alt="comparison" src="https://github.com/user-attachments/assets/2b2a1359-e3d3-4bed-a36e-cde59f90b5d9" />
 6. Phân tích và Nhận xét
-   Độ chính xác: Mô hình sklearn (RBF+PCA) đạt kết quả tốt nhất (F1 ~ 0.95$), cho thấy dữ liệu ảnh y tế có tính phi tuyến cao và Kernel RBF đã xử lý rất hiệu quả.
+   Độ chính xác: Mô hình sklearn (RBF+PCA) đạt kết quả tốt nhất (F1 ~ 0.95), cho thấy dữ liệu ảnh y tế có tính phi tuyến cao và Kernel RBF đã xử lý rất hiệu quả.
    Khả năng quát hóa: Chỉ số F1 của mô hình tự cài đặt bằng NumPy tương đương với sklearn (Linear), chứng minh thuật toán SGD đã hội tụ đúng điểm tối ưu.
    Vấn đề Overfitting: Mặc dù Recall đạt 1.0, nhưng qua việc kiểm tra chỉ số trên cả tập Train và Test, mô hình cho thấy sự ổn định và không có dấu hiệu "học tủ" (overfitting) nghiêm trọng, dù tập test còn hạn chế về số lượng.
    <img width="433" height="150" alt="image" src="https://github.com/user-attachments/assets/7e96bf00-d886-4a70-ad7f-8bb02fd75f35" />
